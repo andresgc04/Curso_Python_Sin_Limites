@@ -1,8 +1,8 @@
 edad = int(input('Introduce tú edad: '))
 
-veintes = edad >= 20 and edad < 30
+veintes = 20 <= edad < 30
 
-treintas = edad >= 30 and edad < 40
+treintas = 30 <= edad < 40
 
 if veintes or treintas:
     #print('Dentro del rango de 20 años o 30 años.')
